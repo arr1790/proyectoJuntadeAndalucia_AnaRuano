@@ -13,7 +13,7 @@ export default function Home() {
       <Titulo>  {metadata.title} </Titulo>
       <Nav pos={13} />
 
-      <div className="flex flex-col gap-4 md:flex-row md:items-start">
+      <div className="flex flex-col gap-4 lg:flex-row ld:items-start">
 
         <div className="flex flex-col gap-4">
           <p>
