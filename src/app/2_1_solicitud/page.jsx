@@ -1,7 +1,8 @@
 import Titulo from "@/components/titulo";
 import Nav from "@/components/nav";
 import ItemLista from "@/components/item-lista";
-
+import Image from "next/image";
+import pdficon from './pdf.png'
 
 export const metadata = {
   title: "2.1.- Solicitud"
@@ -45,9 +46,12 @@ export default function Home() {
           </ItemLista>
 
           <ItemLista>
-            <span className="font-bold">Impreso de solicitud cumplimentado</span> <a className="pdf" href="https://www.juntadeandalucia.es/educacion/gestionafp/documentacion/Informacion_tutorial/impreso_solicitud_titulo.pdf"
+            <span className="font-bold">Impreso de solicitud cumplimentado</span> 
+            <Image src={pdficon} alt="pdf" width={20*0.81} height={20} className="inline ml-2"/>
+
+            <a className="pdf" href="https://www.juntadeandalucia.es/educacion/gestionafp/documentacion/Informacion_tutorial/impreso_solicitud_titulo.pdf"
               target="_blank" rel="noopener"
-              class="text-blue-600 hover:text-blue-800 underline">
+              class="text-blue-600 hover:text-blue-800 underline ml-2">
               Descargar impreso de solicitud
             </a>
           </ItemLista>

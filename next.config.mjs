@@ -4,8 +4,10 @@ const nextConfig = {
         remotePatterns: [
             {
                 hostname: 'www.juntadeandalucia.es'
-            }
-        ]
+            },
+
+        ],
+
     }
 };
 
