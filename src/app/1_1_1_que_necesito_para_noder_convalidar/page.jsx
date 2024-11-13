@@ -19,7 +19,7 @@ export default function Home() {
 
         <ItemLista>Si eres alumno de SEMI o distancia: <span className="font-bold">estar matriculado/a en el módulo que se desea convalidar</span> y realizar el pago de las tasas correspondientes. Hasta que no se realice y se compruebe el pago, no se podrá ejecutar la convalidación en el expediente. De esta forma, si el pago se retrasa cabría la posibilidad de que la resolución de la convalidación también se retrasara.</ItemLista>
         <p>La <span className="font-bold">convalidación no se realiza sobre la globalidad del Título</span> que se está cursando, sino sobre los módulos que se soliciten, si estos cumplen las condiciones para ello.</p>
-     
+
       </div>
     </>
   );
