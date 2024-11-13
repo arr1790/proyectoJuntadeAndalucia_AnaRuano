@@ -48,7 +48,7 @@ export default function Home() {
           alt="Trabajo"
           width={960}
           height={642}
-          className="w-[300px] h-[332px] border-2 border-black ml-4" // Margen a la izquierda para separar la imagen del texto
+          className="w-[300px]  border-2 border-black ml-4" // Margen a la izquierda para separar la imagen del texto
         />
 
       </div>
